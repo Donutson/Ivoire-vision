@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+    <html>
+	    <head>
+		    <meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+			<link rel="stylesheet" href="css/style.css"/>
+			<title>Ivoire vision</title>
+			<style type="text/css">
+			body { padding-top: 200px; }
+			</style>
+		</head>
+		<!-- debut du body-->
+		<body style="background-image:url(images/arriere-plan.jpg); background-repeat:x-repeat;background-size:1000px;">
+		<!-- création du menu-->
+		   <nav class="navbar navbar-default navbar-static-top navbar-fixed-top">
+		        <div class="container-fluid">
+				   <div class="navbar-header">
+				   <!-- bouton contenant le menu pour les petits écrans-->
+				     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">>
+					     <span class="icon-bar"></span>
+						 <span class="icon-bar"></span>
+						 <span class="icon-bar"></span>
+					 </button>
+					 <!-- logo dans le menu-->
+				      <a class="navbar-brand" href="index.html">
+					      <img alt="logo-ivoire-vision" src="images/logo.png" style="width:75%">
+					  </a>
+				   </div>
+				   <!-- éléments du menu-->
+				   <div class="collapse navbar-collapse" id="menu">
+				      <ul class="nav navbar-nav">
+					        <li><a href="index.html">Accueil</a> </li>
+							<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> La Côte d'Ivoire <span class="caret"></span></a> 
+							      <ul class="dropdown-menu">
+								      <li><a href="#">Histoire</a></li>
+									  <li><a href="#">Géographie</a></li>
+									  <li><a href="#">Symbole de l'état</a></li>
+								  </ul>
+							</li>
+							<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Visiter <span class="caret"></span> </a>
+							   <ul class="dropdown-menu">
+							       <li><a href="#">Attractions incontournables</a></li>
+								   <li><a href="#">Parcs et réserves</a></li>
+								   <li><a href="#">Evènements à voir</a></li>
+							   </ul>
+							 </li>
+							<li class="active"><a href="Organiser.html">Organiser</a> </li>
+							<li><a href="Inscrire.html" id="inscrire">S'inscrire</a> </li>
+					   </ul>
+				   </div>
+				   <!-- formulaire de connexion-->
+				   <form class="navbar-form pull-right">
+				       <span class="form-text">Se connecter</span>
+				       <label for="identifiant">identifiant </label>
+					   <input type="text" style="width:150px" class="input-sm form-control"
+                        placeholder="Votre idetifiant" id="identifiant">
+						<label for="motpass">Mot de passe </label>
+					   <input type="password" style="width:150px" class="input-sm form-control"
+                        placeholder="Votre mot de passe" id="motpass">
+						<button class="btn btn-primary" type="submit">Connexion </button>
+				   </form>
+				</div> 
+		   </nav>
+		   <!--éléments de la page en question-->
+		   <div class="container">
+		       <div class="row">
+			   <!--Deux petit boutons-->
+			      <div class="col-lg-4 col-lg-offset-2"> 
+				       <a href="inscrire.html"> 
+					       <button type="button" class="btn btn-success">Je m'incris d'abord</button>
+					   </a> 
+					   <a href="organisersuite.html"> 
+					       <button type="button" class="btn btn-warning">J'organise</button>
+					   </a> 
+				   </div> 
+               </div> 			   
+           </div> 		   
+		<!-- pied de la page-->
+		<footer style="background-color:rgb(218,218,228); " class="navbar-fixed-bottom">
+		     <div class=container-fluid>
+			      <div class="row">
+				        <div class="col-xs-3">
+						    <a href="index.html">
+							    <img alt="logo-ivoire-vision" src="images/logo.png" style="width:25%">
+							</a>
+						</div>
+						<div class="col-xs-4">
+						    LIENS UTILES
+							<div class="row">
+							    <div class="col-lg-4">
+								   <a href="https://www.cotedivoiretourisme.ci/"> COTE D'IVOOIRE TOURISME</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-4">
+						   <a href="#" style="color:black">QUI SOMMES-NOUS?</a>
+						</div>
+						<div class="col-xs-1">
+						   <a href="#" style="color:black">FAQ</a>
+						</div>
+				  </div>
+				  <div class="row">
+				      <div class="col-lg-12" style="text-align:center">
+					     Copyright <span class="glyphicon glyphicon-copyright-mark"> 2019 Ivoire vision tous droits réservés
+					  </div>
+				  </div>
+			 </div>
+		</footer>
+		</body>
+	</html>
